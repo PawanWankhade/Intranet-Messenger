@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<web-app> 
+
+    <servlet>
+      <servlet-name>Check</servlet-name>
+      <servlet-class>Check</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Check</servlet-name>
+        <url-pattern>/servlet/Check</url-pattern>
+    </servlet-mapping>
+ <servlet>
+      <servlet-name>ShowAllAccounts</servlet-name>
+      <servlet-class>ShowAllAccounts</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowAllAccounts</servlet-name>
+        <url-pattern>/servlet/ShowAllAccounts</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,5 @@
+create table message(mid int primary key auto_increment,sender varchar(40),receiver varchar(40),subject varchar(20),date varchar(25),body text,senderdelete varchar(10),receiverdelete varchar(10),attach varchar(50))
+
+create table users(uid varchar(40),pswd varchar(40),uname varchar(50),logintype varchar(10),loginstatus(10) default 'active');
+
+create table userpersonal(uid varchar(40),uname varchar(40),dob varchar(20),gender varchar(10),mobile varchar(15),age int(11),email varchar(50),que varchar(40),ans varchar(40));
